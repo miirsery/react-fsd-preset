@@ -1,0 +1,14 @@
+@use 'sass:color';
+
+$color--black: #000;
+$color--white: #fff;
+
+$color--blue-1: rgb(31 88 194);
+$color--blue-1-15: rgba(31 88 194 / 0.15);
+
+$colors: (
+  black: $color--black,
+  white: $color--white,
+  blue-1: $color--blue-1,
+  blue-1-15: $color--blue-1-15
+)
